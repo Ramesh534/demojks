@@ -45,11 +45,13 @@ stages:
 #    nonErpDestinations:
 #      - 'myCustomDestination'
 
-#  productionDeployment:
-#    cfTargets:
-#      - org: 'myOrg'
-#        space: 'mySpace'
-#        apiEndpoint: 'https://'
-#        appName: 'myAppName'
-#        manifest: 'manifest.yml'
-#        credentialsId: 'myDeploymentCredentialsId'
+  productionDeployment:
+    cfTargets:
+      - org: 'Aarini Consulting B.V._aarini'
+        space: 'sandbox'
+        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+        appName: 'demojks'
+        manifest: 'manifest.yml'
+        credentialsId: 'Anilcloudfoundry'
+
+
